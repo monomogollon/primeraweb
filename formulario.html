@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!-- formulario -->
+    <form method="POST" action="">
+        <label for="nombre">nombre</label>
+        <input type="text" name="nombre" id="nombre" placeholder="escribir nombre">
+        <label for="password">password</label>
+        <input type="password" name="password" id="password">
+        <label for="alimentos">papa</label>
+        <input type="checkbox" name="alimentos" id="alimentos">
+        <label for="masculino">m asculino</label>
+        <input type="radio" name="sexo" id="masculino">
+        <label for="feminino">femenino</label>
+        <input type="radio" name="sexo" id="femenino">
+        <input type="file" name="archivo" id="">
+        <input type="hidden" name="oculto" value="valor escondido">
+        <select name="tipodoc" id="">
+            <option value="0">seleccione una opcion</option>
+            <option value="cc">cedula de ciudadania</option>
+            <option value="RC">registro civil</option>
+            <option value="TI">tarjeta de identidad</option>
+        </select>
+
+        <select name="documentos" id="" size="2">
+            <option value="0">seleccione una opcion</option>
+            <option value="cc">cedula de ciudadania</option>
+            <option value="RC">registro civil</option>
+            <option value="TI">tarjeta de identidad</option>
+        </select>
+        
+
+        <textarea name="descripcion" id="" cols="30" rows="10"></textarea>
+
+        <input type="date" name="" id="">
+        <input type="datetime-local" name="" id="">
+        <input type="email" name="" id="">
+        <input type="range" name="" id="" min="0" max="50">
+        <input type="url" name="" id="" required>
+        <input type="color" name="" id="">
+        <input type="search" name="" id="">
+        <input type="week" name="" id="">
+        <input type="image" src="" alt="">
+        <input type="month" name="" id="">
+        <input type="number" name="" id="">
+        
+
+        <input type="submit" value="enviar">
+        <input type="reset" value="resetear">
+
+       
+
+
+    </form>
+</body>
+</html>
